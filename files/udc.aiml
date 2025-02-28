@@ -104,4 +104,5 @@
         <pattern>*</pattern>
         <template>I'm sorry but I do not understand you. Please type 'yes' or 'no' if you are in a question or 'hello' to restart the questionnaire.</template>
     </category>
+
 </aiml>
