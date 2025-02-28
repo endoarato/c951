@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Would you like help choosing your future career?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>WOULD YOU LIKE HELP CHOOSING YOUR FUTURE CAREER</that>
+        <template>Do you enjoy writing code?</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>WOULD YOU LIKE HELP CHOOSING YOUR FUTURE CAREER</that>
+        <template>No problem. I'll be here if you need help in the future.</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY WRITING CODE</that>
+        <template>
+            You would make a good programmer.
+            Programmers write software to meet business requirements.
+            <link>
+                <text>Click here to learn more</text>
+                <url>https://www.indeed.com/hire/job-description/software-developer</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY WRITING CODE</that>
+        <template>Do you enjoy finding security weaknesses?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY FINDING SECURITY WEAKNESSES</that>
+        <template>
+            You would make a good security analyst.
+            Security analysts analyze networks and devices for security breaches and vulnerabilities.
+            <link>
+                <text>Click here to learn more</text>
+                <url>https://ca.indeed.com/career-advice/finding-a-job/security-analyst-job-description</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY FINDING SECURITY WEAKNESSES</that>
+        <template>Do you enjoy drawing or making 3D models?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY DRAWING OR MAKING 3D MODELS</that>
+        <template>
+            You would make a good animator.
+            Animators create animations for games, movies, and TV shows.
+            <link>
+                <text>Click here to learn more</text>
+                <url>https://www.indeed.com/hire/job-description/animator</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY DRAWING OR MAKING 3D MODELS</that>
+        <template>Do you enjoy tinkering with or troubleshooting hardware?</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <that>DO YOU ENJOY TINKERING WITH OR TROUBLESHOOTING HARDWARE</that>
+        <template>
+            You would make a good computer engineer.
+            Computer engineers focus on hardware design and troubleshooting as well as the software that runs on them.
+            <link>
+                <text>Click here to learn more</text>
+                <url>https://www.indeed.com/hire/job-description/computer-engineer</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <that>DO YOU ENJOY TINKERING WITH OR TROUBLESHOOTING HARDWARE</that>
+        <template>
+            You would make a good QA tester. 
+            QA testers test products to make sure that they meet business and technical requirements.
+            <link>
+                <text>Click here to learn more</text>
+                <url>https://www.indeed.com/career-advice/finding-a-job/qa-roles</url>
+            </link>
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry but I do not understand you. Please type 'yes' or 'no' if you are in a question or 'hello' to restart the questionnaire.</template>
+    </category>
+</aiml>
